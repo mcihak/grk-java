@@ -1,0 +1,57 @@
+Maturitní témata z informatiky
+
+Tøída: 8.A8 , 4.A4, 4.B4 
+
+Zkoušející: RNDr. Michal Èihák, Ph.D.
+
+Školní rok: 2012/2013
+
+1. Informace a jejich význam Informace – jednotky (bit, byte a jejich násobky; binární vs. SI prefixy). Reprezentace základních datových formátù v poèítaèi (èíselné formáty, textové øetìzce). Komprese dat (ztrátová a bezztrátová) – vysvìtlení principu a pøíklady. Èíselné soustavy – dvojková, desítková, šestnáctková (pøevody mezi èíselnými soustavami).
+
+2. Tvorba WWW stránek – jazyk HTML Jazyk HTML – základní èlenìní dokumentu, odkazy, obrázky, formátování textu, seznamy, tabulky. Standardy W3C (XML, XHTML, MATH ML, SVG). Další technologie používané na webu (JavaScript, Java, Flash, SilverLight , PHP, ASP).
+
+3. Tvorba WWW stránek – kaskádové styly(CSS) Kaskádové styly – výhody použití, nevýhody (problém podpory v prohlížeèích). Nastavení kaskádových stylù (externí, interní, lokální). Formátování pomocí stylù (text, odstavce, rámeèky, seznamy, tabulky).
+
+4. Tvorba WWW stránek – CSS layout Tøídy stylù a identifikace tagù. Absolutní a relativní pozicování.
+
+5. Tvorba WWW stránek – HTML 5 a CSS 2 HTML 5 – nejdùležitìjší novinky a zmìny oproti HTML 4. CSS 2 – nové vlastnosti, podpora v souèasných prohlížeèích.
+
+6. Databáze Základní pojmy relaèní databáze – tabulky, pole, klíèe, záznamy, pohledy, vztahy (1:1, 1:N, M:N), E-R model, návrh databáze (normální formy), databázové programy (software).
+
+7. Databáze MS Access Založení databáze, datové typy v MS Access, zadávání dat, formuláøe, sestavy, filtry a dotazy, praktické využití.
+
+8. Databáze – jazyk SQL Základní pøíkazy jazyka SQL – SELECT (filtrování a øazení záznamù), INSERT, UPDATE, DELETE.
+
+9. Databáze – jazyk SQL Pøíkaz SELECT a INNER JOIN (spojování více tabulek)
+
+10. Programování v jazyce Java – programátorské zásady Doporuèené zásady pro psaní programového kódu (odsazování, mezery, názvy tøíd, metod, promìnných a konstant, nastavení pøístupových práv, komentování kódu a dokumentace), nejèastìjší programátorské chyby (pøíklady), ladìní programù, využití klíèového slova assert.
+
+11. Programování v jazyce Java – základní datové typy a operátory Identifikátory, primitivní datové typy (celoèíselný, znakový, logický, reálný) a jejich datová reprezentace (problamatika pøeteèení a podteèení), deklarace promìnných, deklarace konstant, operátory pøiøazení a pøetypování, aritmetické operátory, relaèní operátory, priority vyhodnocování operátorù
+
+12. Programování v jazyce Java – soubory Terminálový vstup a výstup, formátovaný a neformátovaný souborový vstup a výstup.
+
+13. Programování v jazyce Java – øídící struktury Podmínìný pøíkaz if, pøíkaz switch, cykly while, do-while a for, ternární operátor, pøíkazy break, continue a repeat.
+
+14. Programování v jazyce Java – metody Deklarace metody, metoda bez parametrù, metoda bez návratového typu (procedura), metoda s více parametry rùzných typù, metoda s promìnným poètem parametrù, pøetížení metod, promìnné z pohledu pøístupnosti z metod (lokální a nelokální promìnné), zastínìní nelokálních promìnnách lokálními.
+
+15. Programování v jazyce Java – pole Deklarace pole, délka pole, inicializované pole, jednorozmìrná a dvourozmìrná pole, pole a cykly, argumenty pøíkazové øádky (pole args).
+
+16. Programování v jazyce Java - øetìzce Datová reprezentace tøídy String, speciální znaky používané v øetezcích, vytvoøení øetìzce (øetìzcová konstanta vs. objekt), spojování øetìzcù, porovnávání øetìzcù, pøevod na malá èi velká písmena, získání èásti øetìzce, získání znaku, hledání znaku, konverze základních datových typù na øetìzec a naopak, metoda toString(), tøída StringBuffer
+
+17. Programování v jazyce Java – tøídy a objekty Základní pojmy objektového programování, tøída, objekt, instance, deklarace tøídy, vytvoøení objektu, konstruktor, implicitní konstruktor, pøetížení konstruktorù, využití this pro pøístup k promìnným, metody, pøetížení metod, promìnné tøídy (static), statické metody.
+
+18. Programování v jazyce Java – dìdiènost Skládání tøíd vs. dìdiènost (kdy co použít). Definice potomkù, pøekrytí metod pøedka, klíèové slovo super, polymorfizmus pomocí dìdiènosti, upcasting a downcasting.
+
+19. Programování v jazyce Java – zapouzdøení Modifikátory deklarace tøíd, promìnných a metod (public, protected, private, abstract, finale), autorizovaný pøístup k datùm (metody setNìco() a getNìco()).
+
+20. Programování v jazyce Java – abstraktní tøídy Abstraktní tøídy – rozdíly mezi bìžnou a abstraktní tøídou; abstraktní metody; kdy je vhodné použít abstraktní tøídu; ukázka návrhu abstraktní tøídy, implementace potomkù; rozdíly mezi abstraktní tøídou a rozhraním
+
+21. Programování v jazyce Java – rozhraní Rozhraní (interface) – k èemu se využívá, ukázka návrhu rozhraní, použití rozhraní (implements), rozdíly oproti dìdiènosti, polymorfizmus pomocí rozhraní
+
+22. Programování v jazyce Java – výjimky Mechanismus výjimek v Javì (porovnání se staršími jazyky), tøídy výjimek, zpùsoby ošetøení výjimek, výjimky u pøekrytých a pøetížených metod.
+
+23. Programování v jazyce Java – kolekce Tøída ArrayList a její metody, rozhraní Iterable (použití iterátorù), rozhrani Comparable (porovnávání a tøídìní kolekcí).
+
+24. Programování v jazyce Java – GUI Základní principy tvorby GUI s využitím toolkitu AWT, kontejnery a komponenty, jejich vlastnosti a metody, rozhraní ActionListener, layout managery.
+
+25. Programování v jazyce Java – 2D grafika Tøída Canvas a její metody (paint(), repaint(), metody pro kreslení geometrických obrazcù, nastavení barev, fontù). 
