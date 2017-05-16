@@ -1,0 +1,27 @@
+﻿<Window x:Class="PoznamkovacWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PoznamkovacWPF"
+        mc:Ignorable="d"
+        Title="Poznámkovač" Height="350" Width="525">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <ListBox x:Name="osobyListBox" Grid.Column="0" Grid.Row="0" Margin="0, 10" ItemsSource="{Binding Zaznamy}"/>
+        <StackPanel Grid.Column="1" Grid.Row="0" Margin="10, 0">
+            <Button x:Name="PridejButton" Content="Přidej" Width="60" Margin="10"/>
+            <Button x:Name="VyhledejButton" Content="Vyhledej" Width="60" Margin="10"/>
+            <Button x:Name="VymazButton" Content="Vymaž" Width="60" Margin="10"/>
+        </StackPanel>
+        
+    </Grid>
+    
+</Window>
