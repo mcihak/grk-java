@@ -19,7 +19,7 @@ namespace PoznamkovacWPF
 
         public override string ToString()
         {
-            return DatumCas + ": " + Text;
+            return DatumCas.Date + ": " + Text;
         }
 
         public int CompareTo(Zaznam z)

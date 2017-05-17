@@ -15,11 +15,11 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
-        <ListBox x:Name="osobyListBox" Grid.Column="0" Grid.Row="0" Margin="0, 10" ItemsSource="{Binding Zaznamy}"/>
-        <StackPanel Grid.Column="1" Grid.Row="0" Margin="10, 0">
-            <Button x:Name="PridejButton" Content="Přidej" Width="60" Margin="10"/>
-            <Button x:Name="VyhledejButton" Content="Vyhledej" Width="60" Margin="10"/>
-            <Button x:Name="VymazButton" Content="Vymaž" Width="60" Margin="10"/>
+        <ListBox x:Name="osobyListBox" Grid.Column="0" Grid.Row="0" Margin="0, 10, 0, 0" ItemsSource="{Binding Zaznamy}"/>
+        <StackPanel Grid.Column="1" Grid.Row="0" Margin="10, 0, 0, 0 ">
+            <Button x:Name="PridejButton" Content="Přidej" Width="90" Margin="0, 10, 0, 10" Click="PridejButton_Click"/>
+            <Button x:Name="VyhledejButton" Content="Vyhledej" Width="90" Margin="0, 10, 0, 10"/>
+            <Button x:Name="VymazButton" Content="Vymaž" Width="90" Margin="0, 10, 0, 10"/>
         </StackPanel>
         
     </Grid>

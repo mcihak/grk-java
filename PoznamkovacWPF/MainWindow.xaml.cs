@@ -21,16 +21,23 @@ namespace PoznamkovacWPF
  
     public partial class MainWindow : Window
     {
-        private Databaze databaze;
+        private Databaze databaze = new Databaze();
 
         public MainWindow()
         {
-            InitializeComponent();
-            databaze = new Databaze();                  
+            InitializeComponent();            
             DataContext = databaze;
 
             DateTime pom = new DateTime(2017, 5, 16);
-            databaze.PridejZaznam(pom, "Michal");
+            //databaze.PridejZaznam(pom, "Michal");
         }
+
+        private void PridejButton_Click(object sender, RoutedEventArgs e)
+        {
+            PridejWindow osobaWindow = new PridejWindow(databaze);
+            osobaWindow.ShowDialog();          
+        }
+
+
     }
 }
